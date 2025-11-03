@@ -11,7 +11,7 @@
   </div>
     <!--Här kommer vi lägga till en bild senare i uppgiften 1.2.4 Extra styling-->  
 
-</main>
+</main>\
 
 <style>
   main{
