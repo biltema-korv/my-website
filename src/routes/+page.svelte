@@ -11,7 +11,7 @@
   </p>
 
   <p style="background-color:pink">
-    "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - <span>Patrick McKenzie, software engineer and entrepreneur</span>.
+    "All men are equal before fish." - <span>Herbert Hoover, 31st president of the United States of America</span>.
   </p>
 
   </div>
