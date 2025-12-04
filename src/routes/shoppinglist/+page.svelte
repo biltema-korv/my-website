@@ -5,7 +5,6 @@
     function handleSubmit(which){
         if(tobuy.length === 0){
             return;
-            console.log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         }
 
         varor.push({

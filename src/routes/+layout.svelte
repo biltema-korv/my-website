@@ -6,7 +6,7 @@
 </script>
 
 
-<nav>
+<nav> 
 	<a href="{base}/">Hem</a>
 	<a href="{base}/photoapp">Photo App</a>
 	<a href="{base}/register">Register</a>
