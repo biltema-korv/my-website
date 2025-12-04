@@ -12,7 +12,7 @@
             purchased: false
         });
 
-        console.log("AbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+        console.log("AbAAAAAAAAAAAAAAAAAAAAAAAAAAA")
     }
 
     function remove(which){
