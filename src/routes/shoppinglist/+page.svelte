@@ -1,7 +1,7 @@
 
 <script>
     import { fade } from 'svelte/transition'
-    let varor=$state([{ name:"Mölk", purchased: false, priority: 0}]);
+    let varor=$state([{ name:"Mjölk", purchased: false, priority: 0}]);
     let tobuy=$state("")
     let priority=$state("")
 
@@ -48,7 +48,7 @@
             <h2>Varor att köpa</h2>
                 <div class="empty">
                     <ul>
-                        {#each varor.filter(v => !v.purchased).sort((a, b) => b.priority - a.priority) as vara (vara.name)}
+                        {#each varor.filter(v => !v.purchased).sort((a, b) => b.priority - a.priority) as vara}
                             <li transition:fade>
                                 { vara.name }
                                 <button onclick={() => remove(vara)}>🗑️</button>
