@@ -70,11 +70,12 @@
             <h2>Köpta varor</h2>
                 <div class="mt">
                     <ul>
-                        {#each varor.filter(v => v.purchased) as vara}
+                        {#each varor.filter(v => v.purchased).sort((a, b) => b.priority - a.priority) as vara}
                             <li transition:fade>
                                 { vara.name }
                                 <button onclick={() => remove(vara)}>🗑️</button>
                                 <button onclick={() => purchased(vara)}>⬅️</button>
+                                <input type="number" bind:value={vara.priority}>
                             </li>
                         {/each }
                     </ul> 

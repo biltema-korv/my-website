@@ -96,9 +96,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    
-        box-shadow: 0 0 10px 10px yellowgreen;
-        z-index: -1;
     }
 
     .turn{
