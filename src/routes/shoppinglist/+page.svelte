@@ -60,7 +60,7 @@
                     </ul>
                 </div>
                 <label for="Purchased">Lägg till varor att köpa:</label>
-            <input type="text" bind:value   ={tobuy}>
+            <input type="text" bind:value ={tobuy}>
             <br>
 
             <button onclick={() => handleSubmit(tobuy)}>Sätt i listan</button>
