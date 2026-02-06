@@ -3,6 +3,7 @@
      
     // Importera goto-funktionen för att navigera mellan sidor
     import { goto } from '$app/navigation';
+    import { base } from '$app/paths';
   
     // Funktion som hanterar formulärets submit-händelse
     function handleSubmit(e) {
@@ -16,7 +17,7 @@
         const search = formData.get('search');
     
         // Navigera till den dynamiska routen /search/[pokemon]
-        goto('/search/' + search);
+        goto(`${base}/search/${search}`);
     }
 </script>
 
